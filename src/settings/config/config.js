@@ -6,7 +6,7 @@ const prod = {
   apiUrl: '/api/',
 };
 
-const config = process.env.NODE_ENV === 'production' ? prod : dev;
+const config = dev;
 
 export default {
   ...config,
